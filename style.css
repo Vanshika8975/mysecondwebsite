@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    /* background-color: aquamarine; */
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('Untitled design.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.mainheader{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainheader .logo img{
+    margin-top: 60px;
+}
+
+header nav{
+    width: 450px;
+    margin-right: 50px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.mainheader nav a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+.rsec figure img{
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+.lsec{
+    padding-left: 100px;
+}
+
+.lsec h2{
+    font-style: oblique;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.lsec h1{
+    font-style: oblique;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.lsec p{
+    font-size: 20px;
+}
